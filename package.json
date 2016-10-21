@@ -1,0 +1,26 @@
+{
+  "name": "Realtime-Chat",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xHex1er/Realtime-Chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xHex1er/Realtime-Chat/issues"
+  },
+  "homepage": "https://github.com/0xHex1er/Realtime-Chat#readme",
+  "dependencies": {
+    "redis": "^2.6.2"
+  }
+}
