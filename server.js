@@ -5,7 +5,8 @@ env(__dirname+'/.env');
 socketCluster = new SocketCluster({
 	workers: require('os').cpus().length,
 	brokers: 1,
-	port: process.env.SERVER_PORT || 3000,
+	// port: process.env.SERVER_PORT || 3000,
+	port: process.env.SERVER_PORT,
 	appName: 'fusion',
 	workerController: __dirname + '/worker.js',
 	brokerController: __dirname + '/broker.js',
