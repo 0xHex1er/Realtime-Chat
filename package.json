@@ -28,6 +28,7 @@
     "redis": "^2.6.2",
     "sc-broker": "^2.2.3",
     "sc-redis": "^0.1.0",
-    "socketcluster": "^5.0.18"
+    "socketcluster": "^5.0.18",
+    "socketcluster-client": "^5.0.13"
   }
 }

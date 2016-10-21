@@ -12,6 +12,7 @@ module.exports.run = function (worker) {
     In here we handle our incoming realtime connections and listen for events.
   */
   scServer.on('connection', function (socket) {
+    console.log('============= Start ==============');
     console.log(socket.id,'has connected');
     setTimeout(function() {
       console.log(socket.id,'is publishing to the broadcast channel');
