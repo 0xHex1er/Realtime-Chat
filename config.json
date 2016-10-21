@@ -3,7 +3,7 @@
     "balancerCount": 4,
     "targetDeactivationDuration": 5000,
     "sessionExpiry": 2000,
-    "stickiness": true,
+    "stickiness": false,
     "balancerControllerPath": "loadbalancer.js",
     "targets": [
     {
