@@ -17,3 +17,4 @@
 .byebug_history
 
 loadbalancer.out
+node_modules/
